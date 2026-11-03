@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page - Task 1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-bar">
+            <span class="left-name">Nermin</span>
+            <div class="right-links">
+                <a href="#about">About</a>
+                <a href="#cards-section">Cards</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="photo-section">
+            <img src="images/me.jpg" alt="A photo of me">
+        </section>
+
+        <section id="cards-section" class="cards-container">
+            <div class="card">
+                <h3>Skills</h3>
+                <p>HTML, CSS, JavaScript</p>
+            </div>
+            <div class="card">
+                <h3>Hobbies</h3>
+                <p>Reading and Coding</p>
+            </div>
+            <div class="card">
+                <h3>Education</h3>
+                <p>Computer Science</p>
+            </div>
+        </section>
+
+        <section class="toggle-section">
+            <button id="theme-toggle">Toggle Dark Mode</button>
+        </section>
+
+        <section id="contact" class="form-section">
+            <form>
+                <div>
+                    <label for="visitor-name">Name:</label>
+                    <input type="text" id="visitor-name" name="visitor-name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Field Training I. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
